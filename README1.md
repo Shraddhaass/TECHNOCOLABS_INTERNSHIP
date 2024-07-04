@@ -40,6 +40,16 @@ A univariate plot depicts and summarizes the data's distribution. Individual obs
 
 Bivariate analysis is a type of statistical analysis in which two variables are compared to one another. One variable will be dependent, while the other will be independent. X and Y represent the variables. The differences between the two variables are analyzed to determine the extent to which the change has occurred.
 
+
+![Bivariate_analysis](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/de399e95-c39d-4914-9e61-343fa0cec8e1)
+
+![Bivariate_analysis(3)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/0ccc1807-721a-4682-8415-63fd711ac25a)
+![Bivariate_analysis(4)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/3b62d064-da15-41dd-952d-a4900c273d5f)
+![Bivariate_analysis(5)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/8a30d725-c2f3-4251-8d8e-092fb6535877)
+![Bivariate_analysis(6)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/0789a8eb-e65e-4d02-95f2-3e6c90819c49)
+![Bivariate_analysis(7)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/b73d05b8-2f91-4e04-8b4d-ffd9db841271)
+![Bivariate_analysis(8)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/f5dd7d08-970a-409b-b274-b25133afbbeb)
+
 ## Multivariate Plots ##
 Multivariate analysis is traditionally defined as the statistical study of experiments in which multiple measurements are taken on each experimental unit and the relationship between multivariate measurements and their structure is critical for understanding the experiment.
 So, let's look at an example of a research question that we solved using multivariate plots and matplotlib.
