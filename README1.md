@@ -15,9 +15,13 @@ What we Do:
 | Tasks: EDA (Exploratory Data Analysis):| 
 | 1. Perform Data Exploration. 
 | 2. Data Cleaning. 
-| 3. Data Visualization and Manipulation. 
-| 4. Formula for Target variable.
-| 5. Feature Engineering
+| 4. Feature Engineering
+| 5. Model Evalution
+         (a) AdaBoost Classifier
+         (b) SVM Classifier
+         (C) XGBoost Classifier
+         (d) Decision Tree Classifier
+| 5. Formula for Target variable
 | 6. Trained the model using machine learning algorithm 
 | 7. Hyperparameter Tuning: Optimize the hyperparameters to improve model performance.
 | 8. Cross-Validation: Implement cross-validation techniques to ensure the model's robustness and generalizability.
@@ -25,7 +29,6 @@ What we Do:
 | 10. Building pipeline
 | 11. Save and Serilize the model
 | 12. Deployment of ML model
- 
 --
 ## 2. Data Preprocessing 
        Exploratory Data Analysis
