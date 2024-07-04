@@ -8,27 +8,29 @@ The empirical analysis conducted in this study is based on a dataset comprising 
 
 This project aims to provide valuable insights and practical recommendations for both borrowers and lenders to increase their chances of successful funding and repayment in the P2P lending market. Additionally, we discuss potential future research opportunities to further eligible borrower field.
 
+## What We Do
 
+| Tasks: EDA (Exploratory Data Analysis)      |
+|---------------------------------------------|
+| 1. Perform Data Exploration                 |
+| 2. Data Cleaning                            |
+| 3. Feature Engineering                      |
+| 4. Model Evaluation                         |
+|    - (a) AdaBoost Classifier                |
+|    - (b) SVM Classifier                     |
+|    - (c) XGBoost Classifier                 |
+|    - (d) Decision Tree Classifier           |
+| 5. Formula for Target Variable              |
+| 6. Train the Model Using Machine Learning Algorithms |
+| 7. Hyperparameter Tuning                    |
+|    - Optimize the hyperparameters to improve model performance |
+| 8. Cross-Validation                         |
+|    - Implement cross-validation techniques to ensure the model's robustness and generalizability |
+| 9. Test and Evaluate the Model              |
+| 10. Build Pipeline                          |
+| 11. Save and Serialize the Model            |
+| 12. Deployment of ML Model                  |
 
-What we Do: 
-|-------------------|
-| Tasks: EDA (Exploratory Data Analysis):| 
-| 1. Perform Data Exploration. 
-| 2. Data Cleaning. 
-| 4. Feature Engineering
-| 5. Model Evalution
-         (a) AdaBoost Classifier
-         (b) SVM Classifier
-         (C) XGBoost Classifier
-         (d) Decision Tree Classifier
-| 5. Formula for Target variable
-| 6. Trained the model using machine learning algorithm 
-| 7. Hyperparameter Tuning: Optimize the hyperparameters to improve model performance.
-| 8. Cross-Validation: Implement cross-validation techniques to ensure the model's robustness and generalizability.
-| 9. Test and Evaluate the model
-| 10. Building pipeline
-| 11. Save and Serilize the model
-| 12. Deployment of ML model
 --
 ## 2. Data Preprocessing 
        Exploratory Data Analysis
