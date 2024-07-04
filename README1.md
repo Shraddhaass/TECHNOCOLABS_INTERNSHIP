@@ -53,6 +53,27 @@ Bivariate analysis is a type of statistical analysis in which two variables are 
 ## Multivariate Plots ##
 Multivariate analysis is traditionally defined as the statistical study of experiments in which multiple measurements are taken on each experimental unit and the relationship between multivariate measurements and their structure is critical for understanding the experiment.
 So, let's look at an example of a research question that we solved using multivariate plots and matplotlib.
+![Multivariate_analysis(1)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/40e4afd8-c93c-4ea0-a576-e5cb3f4462d1)
+![Multivariate_analysis(2)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/35b31e3c-5d61-4b0f-9939-ac9a5cbde306)
+![Multivariate_analysis(3)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/18f338c2-01bb-44f4-8dd3-a349f228d91d)
+![Multivariate_analysis(4)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/f456c3f0-bc90-40b5-bd58-8c4d9ff7b4bc)
+![Multivariate_analysis(5)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/f1a6285b-cfde-4d07-b646-e8e6ee2c9152)
+![Multivariate_analysis(6)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/bc3b23dc-e8f8-41df-a45b-448cd7a302d8)
+![Multivariate_analysis(6)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/0467a449-c799-4a7c-8806-f8aeb2332a0b)
+![Multivariate_analysis(7)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/b40e49a7-7813-4255-b7be-d0e1b9d47037)
+![Multivariate_analysis(8)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/b3cb1ab2-78d1-49ff-b2e5-40accf924de6)
+![Multivariate_analysis(9)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/5e1143ad-7b92-49f5-92ad-40fa3ea234ac)
+![Multivariate_analysis(10)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/d390db2d-ae66-471c-854b-dfc196148a07)
+![Multivariate_analysis(11)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/0c961dd1-4439-4df3-8f77-06ee3fb59f31)
+![Multivariate_analysis(12)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/8d4769b3-5d9b-4fe0-a7e3-a889e3b052fe)
+![Multivariate_analysis(13)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/90b35661-eb70-4edb-a9cb-f2c3515e767d)
+![Multivariate_analysis(14)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/312fa96e-2db7-4d2f-8897-76433c3e8b05)
+![Multivariate_analysis(15)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/64aa8587-b666-491c-b72e-7d558c8c2173)
+![Multivariate_analysis(16)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/40acd8fb-1759-4857-aca1-4dd40aee362c)
+![Multivariate_analysis(17)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/6bb2b0eb-4426-4f92-806d-f0c621c70edc)
+![Multivariate_analysis(18)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/92e19d6c-4c0b-40b5-9178-a1a6d19572b7)
+![Multivariate_analysis(19)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/d0448702-8fd8-4d21-baf6-2205fdec2be2)
+
 
 
 ## 4. Formula for Target variable
