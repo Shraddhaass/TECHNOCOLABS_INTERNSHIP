@@ -145,27 +145,30 @@ So, let's look at an example of a research question that we solved using multiva
 ###### we have to extract the date,month,year from the datetime columns
 
 ### Function to select top 10 features based on MI scores for each target
-Top 10 features for EMI:                   Top 10 features for EligibleLoanAmount:            Top 10 features for PROI:
-|TotalPaymentDue                             |LP_CustomerPrincipalPayments                     LP_CustomerPrincipalPayments
-|LP_CustomerPrincipalPayments                |TotalPaymentDue                                  LP_GrossPrincipalLoss
-|LoanOriginalAmount                          |LP_CustomerPayments                              LP_NetPrincipalLoss
-|Loan_tenure                                 |LP_GrossPrincipalLoss                            LoanFirstDefaultedCycleNumber
-|LP_CustomerPayments                         |LP_NetPrincipalLoss                              LoanCurrentDaysDelinquent
-|TotalAmount                                 |LP_ServiceFees                                   TotalPaymentDue
-|LP_ServiceFees                              |Loan_tenure                                      MonthlyLoanPayment
-|MonthlyLoanPayment                          |LoanOriginalAmount                               LP_CustomerPayments 
-|InterestAmount                              |TotalAmount                                      TotalAmount
-|LP_GrossPrincipalLoss                       |LoanFirstDefaultedCycleNumber                    LoanOriginalAmount
-|LP_NetPrincipalLoss                         |LP_InterestandFees                               InterestAmount
-|ROI                                         |MonthlyLoanPayment                               Loan_tenure
-|BorrowerRate                                |LoanCurrentDaysDelinquent                        LP_ServiceFees
-|LenderYield                                 |InterestAmount                                   BorrowerAPR
-|BorrowerAPR                                 |BorrowerAPR                                      ROI
-|LP_InterestandFees                          |ROI                                              LP_InterestandFees
-|LoanFirstDefaultedCycleNumber               |LenderYield                                      LenderYield
-|EstimatedLoss                               |BorrowerRate                                     BorrowerRate
-|EstimatedEffectiveYield                     |Closeddate_year                                  EstimatedEffectiveYield
-|rosperRating (numeric)                      |EstimatedEffectiveYield                          EstimatedReturn
+### Function to select top 10 features based on MI scores for each target
+
+| Top 10 features for EMI                      | Top 10 features for EligibleLoanAmount          | Top 10 features for PROI                       |
+|----------------------------------------------|-------------------------------------------------|-----------------------------------------------|
+| 1. TotalPaymentDue                           | 1. LP_CustomerPrincipalPayments                 | 1. LP_CustomerPrincipalPayments               |
+| 2. LP_CustomerPrincipalPayments              | 2. TotalPaymentDue                              | 2. LP_GrossPrincipalLoss                      |
+| 3. LoanOriginalAmount                        | 3. LP_CustomerPayments                          | 3. LP_NetPrincipalLoss                        |
+| 4. Loan_tenure                               | 4. LP_GrossPrincipalLoss                        | 4. LoanFirstDefaultedCycleNumber              |
+| 5. LP_CustomerPayments                       | 5. LP_NetPrincipalLoss                          | 5. LoanCurrentDaysDelinquent                  |
+| 6. TotalAmount                               | 6. LP_ServiceFees                               | 6. TotalPaymentDue                            |
+| 7. LP_ServiceFees                            | 7. Loan_tenure                                  | 7. MonthlyLoanPayment                         |
+| 8. MonthlyLoanPayment                        | 8. LoanOriginalAmount                           | 8. LP_CustomerPayments                        |
+| 9. InterestAmount                            | 9. TotalAmount                                  | 9. TotalAmount                                |
+| 10. LP_GrossPrincipalLoss                    | 10. LoanFirstDefaultedCycleNumber               | 10. LoanOriginalAmount                        |
+| 11. LP_NetPrincipalLoss                      | 11. LP_InterestandFees                          | 11. InterestAmount                            |
+| 12. ROI                                      | 12. MonthlyLoanPayment                          | 12. Loan_tenure                               |
+| 13. BorrowerRate                             | 13. LoanCurrentDaysDelinquent                   | 13. LP_ServiceFees                            |
+| 14. LenderYield                              | 14. InterestAmount                              | 14. BorrowerAPR                               |
+| 15. BorrowerAPR                              | 15. BorrowerAPR                                 | 15. ROI                                       |
+| 16. LP_InterestandFees                       | 16. ROI                                         | 16. LP_InterestandFees                        |
+| 17. LoanFirstDefaultedCycleNumber            | 17. LenderYield                                 | 17. LenderYield                               |
+| 18. EstimatedLoss                            | 18. BorrowerRate                                | 18. BorrowerRate                              |
+| 19. EstimatedEffectiveYield                  | 19. Closeddate_year                             | 19. EstimatedEffectiveYield                   |
+| 20. ProsperRating (numeric)                  | 20. EstimatedEffectiveYield                     | 20. EstimatedReturn                           |
 
 --
 
