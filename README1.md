@@ -28,7 +28,11 @@ What we Do:
  
 --
 ## 2. Data Preprocessing 
-
+       Exploratory Data Analysis
+                 1.Clear Null Values
+                 2.Encoding Categorical Data
+                 3.Clearing Outliers
+                 4.Formating columns having Datetime
 --
 ## 3. Data Visualization and Manipulation.
 ## Univariate Plots Section ##
