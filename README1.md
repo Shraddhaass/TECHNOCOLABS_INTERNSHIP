@@ -34,6 +34,7 @@ What we Do:
 ## Univariate Plots Section ##
 
 A univariate plot depicts and summarizes the data's distribution. Individual observations are displayed on a dot plot, also known as a strip plot. 
+![Univariate(1)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/e2865d96-0102-40d0-8a8c-d8a8054d1d2d)
 
 ## Bivariate Plots Section ##
 
