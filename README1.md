@@ -78,7 +78,43 @@ So, let's look at an example of a research question that we solved using multiva
 ![Multivariate_analysis(18)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/92e19d6c-4c0b-40b5-9178-a1a6d19572b7)
 ![Multivariate_analysis(19)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/d0448702-8fd8-4d21-baf6-2205fdec2be2)
 
+# Model we work
+## Model Evaluation
 
+### 1. XGBoost Classifier
+- **Accuracy:** 95.23%
+- **Confusion Matrix:** [[2563, 343], [722, 18719]]
+- **Precision:** Class 0: 78%, Class 1: 98%
+- **Recall:** Class 0: 88%, Class 1: 96%
+- **F1 Score:** Class 0: 83%, Class 1: 97%
+- **Support:** Class 0: 2906, Class 1: 19441
+- **Summary:** High precision, recall, and F1-score for both classes, indicating effective classification of Default and Non-Default loans.
+
+### 2. SVM Classifier
+- **Accuracy:** 95.77%
+- **Confusion Matrix:** [[2342, 564], [381, 19060]]
+- **Precision:** 97.13%
+- **Recall:** 98.04%
+- **F1 Score:** 97.58%
+- **Summary:** Strong performance in terms of accuracy, precision, recall, and F1 score, making it a viable option for classification tasks.
+
+### 3. AdaBoost Classifier
+- **Accuracy:** 93.44%
+- **Confusion Matrix:** [[2582, 324], [1143, 18298]]
+- **Precision:** 94.50%
+- **Recall:** 93.44%
+- **F1 Score:** 93.77%
+- **Summary:** Demonstrates strong performance in accuracy, precision, recall, and F1 score, making it effective for classification tasks.
+
+### 4. Decision Tree Classifier
+- **Accuracy:** 92.79%
+- **Confusion Matrix:** [[2581, 325], [1144, 18297]]
+- **Precision:** 94.49%
+- **Recall:** 93.43%
+- **F1 Score:** 93.76%
+- **Summary:** Achieves a balance between accuracy, precision, recall, and F1 score.
+
+Among the four models, the SVM Classifier performs the best with the highest accuracy, precision, recall, and F1 score. It is well-suited for identifying eligible borrowers due to its ability to create clear boundaries between classes in high-dimensional space and its lower susceptibility to overfitting.
 
 ## 4. Formula for Target variable
 #### Loan Tenure in Months=(Year of ClosedDate−Year of LoanOriginationDate)×12+(Month of ClosedDate−Month of LoanOriginationDate)
