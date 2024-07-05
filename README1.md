@@ -10,10 +10,14 @@ This project aims to provide valuable insights and practical recommendations for
 
 ## What We Do
 
-| Tasks: EDA (Exploratory Data Analysis)      |
+| Tasks:      |
 |---------------------------------------------|
 | 1. Perform Data Exploration                 |
-| 2. Data Cleaning                            |
+| 2. Visualization graphs                     |
+     EDA(Exploratory Data Analysis):
+       1. Univariate Analysis.
+       2. BiVariate Analysis
+       3. Multivariate Analysis                            |
 | 3. Feature Engineering                      |
 | 4. Model Evaluation                         |
 |    - (a) AdaBoost Classifier                |
@@ -22,15 +26,12 @@ This project aims to provide valuable insights and practical recommendations for
 |    - (d) Decision Tree Classifier           |
 | 5. Formula for Target Variable              |
 | 6. Train the Model Using Machine Learning Algorithms |
-| 7. Hyperparameter Tuning                    |
-|    - Optimize the hyperparameters to improve model performance |
-| 8. Cross-Validation                         |
-|    - Implement cross-validation techniques to ensure the model's robustness and generalizability |
-| 9. Test and Evaluate the Model              |
-| 10. Build Pipeline                          |
-| 11. Save and Serialize the Model            |
-| 12. Deployment of ML Model                  |
-
+|     Random Forest Classifier                |
+|      MultiOutputRegressor                   |
+| 7. Test and Evaluate the Model              |
+| 8. Build Pipeline                           |
+| 9. Save and Serialize the Model             |
+| 10. Deployment of ML Model                  |
 --
 ## 2. Data Preprocessing 
        Exploratory Data Analysis
@@ -297,25 +298,78 @@ Pipeline steps:
      ```
 
 
-_Combined Pipeline_
-The CombinedPipeline class integrates both pipelines, where the output of the classification pipeline augments the input data for the regression pipeline.
-
-Methods
-    fit: Trains both the classification and regression models.
-    predict: Makes predictions for the regression targets.
-    evaluate: Evaluates the regression model performance using MSE and R² score.
-
-    Training
-    The combined pipeline is trained using:
-    ```combined_pipeline.fit(X_train, y_train_class, y_train_multi)```
-
-    Evaluation
-    The model's performance is evaluated by predicting and calculating metrics:
-    ```combined_pipeline.evaluate(X_test, y_test_multi)```
 
 
-## 9.  Deployment
-### 9.1.1 Streamlit
+# 8. Build Pipeline
+#### This pipeline is designed to handle both binary classification and multi-output regression tasks for loan prediction. The model aims to predict the    LoanStatus (classification) and three numerical targets: EMI, EligibleLoanAmount, and PROI (regression). 
+###### a). Feature and Target Separation
+        Features (X) are obtained by dropping EMI, EligibleLoanAmount, PROI, and LoanStatus columns from the DataFrame.
+        The binary target (y_class) is LoanStatus.
+        The multi-output targets (y_multi) are EMI, EligibleLoanAmount, and PROI.
+
+###### b). Data Splitting
+        The dataset is split into training and test sets with an 80-20 ratio.
+
+###### c).Preprocessing Pipelines
+        Numerical Features: Imputed with the mean and scaled using StandardScaler.
+        Categorical Features: Imputed with the most frequent value and encoded using OneHotEncoder.
+
+###### d).Classification Pipeline
+ Model: XGBClassifier is used for binary classification.
+    Steps:
+        Preprocessing of features.
+        Oversampling with SMOTE to handle class imbalance.
+        Dimensionality reduction with PCA (30 components).
+        Classification using XGBoost.
+###### e).Regression Pipeline
+        Model: MultiOutputRegressor wrapping RandomForestRegressor is used for multi-output regression.
+        Steps:
+        Preprocessing of features.
+        Regression using the combined model.
+###### f).Combined Pipeline
+
+The CombinedPipeline class integrates both classification and regression pipelines.
+Initialization: Takes the classification and regression pipelines as input.
+    Fit Method:
+        Trains the classification pipeline on X_train and y_train_class.
+        Uses the trained classifier to predict LoanStatus on X_train, augmenting the data with PredictedLoanStatus.
+        Trains the regression pipeline on the augmented data and y_train_multi.
+    Predict Method:
+        Predicts LoanStatus on X_test and augments the data with PredictedLoanStatus.
+        Predicts EMI, EligibleLoanAmount, and PROI using the regression pipeline.
+    Evaluate Method:
+        Computes and prints Mean Squared Error (MSE) and R-squared (R²) score for each target variable on the test set.
+###### g).Evaluation Metrics
+      The model's performance on the test set is evaluated as follows:
+EMI:
+Mean Squared Error: 2151.89
+        R² Score: 0.9986
+EligibleLoanAmount:
+        Mean Squared Error: 141812.66
+        R² Score: 0.9172
+PROI:
+        Mean Squared Error: 0.000003
+        R² Score: 0.9992 ```
+These results indicate high accuracy for predicting EMI and PROI, with slightly lower but still strong performance for EligibleLoanAmount.
+
+- Create an instance of CombinedPipeline:
+``` combined_pipeline = CombinedPipeline(classification_pipeline, regression_pipeline) ```
+
+-Train the pipeline:
+```combined_pipeline.fit(X_train, y_train_class, y_train_multi)```
+
+-Evaluate the pipeline:
+```combined_pipeline.evaluate(X_test, y_test_multi)```
+    
+    
+# 9. Save and Serialize the Model 
+ ``` Save the combined pipeline to a file
+     with open('combined_pipeline.pkl', 'wb') as f:
+    pickle.dump(combined_pipeline, f) ```
+
+
+# 9.  Deployment
+### 9.1 Streamlit
 
 The development process of the web application was Developed into the Streamlit.
 Streamlit is an open source app framework in Python language. 
