@@ -49,7 +49,7 @@ This project aims to provide valuable insights and practical recommendations for
         return 'Default'  # Modify to 'Charged Off' if days delinquent > 180
     else:
         return 'Non- Default'  # Modify to 'Fully Paid' if days delinquent <= 180
-# Apply classification function directly to 'LoanStatus' column
+##### Apply classification function directly to 'LoanStatus' column
 data['LoanStatus'] = data['LoanCurrentDaysDelinquent'].apply(classify_loan_status)
 
 print("Updated DataFrame with Binary Classification:")
