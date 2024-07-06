@@ -365,11 +365,10 @@ These results indicate high accuracy for predicting EMI and PROI, with slightly 
 -Evaluate the pipeline:
 ```combined_pipeline.evaluate(X_test, y_test_multi)```
     
-    
 # 9. Save and Serialize the Model 
- ``` Save the combined pipeline to a file
-     with open('combined_pipeline.pkl', 'wb') as f:
-    pickle.dump(combined_pipeline, f) ```
+ Save the combined pipeline to a file
+ ``` with open('combined_pipeline.pkl', 'wb') as f:```
+ ``` pickle.dump(combined_pipeline, f) ```
 
 
 # 9.  Deployment
