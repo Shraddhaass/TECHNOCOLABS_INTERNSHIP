@@ -379,7 +379,8 @@ Streamlit is an open source app framework in Python language.
 It helps us create web apps for data science and machine learning in a short time.
 It is compatible with major Python libraries such as scikit-learn, NumPy, pandas, Matplotlib etc.
 
- ## Predict the LOAN APPLICATION with eligible borrower based on the three variable 
+ #### We've successfully developed our mechine learning model that can predict the LOAN APPLICATION with eligible borrower based on the three variable 
+ ## Overview of Web Application
 ![Screenshot (474)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/6a59167e-5f6e-48b2-96e0-c7a8a7e69d4c)
 ![Screenshot (477)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/76a9e710-6686-4d55-8e70-e86f7e262c42)
 ![Screenshot (478)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/cc0631a4-5c10-4675-8145-6d20481d5343)
