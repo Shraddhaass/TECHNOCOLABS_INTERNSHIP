@@ -8,8 +8,6 @@ The empirical analysis conducted in this study is based on a dataset comprising 
 
 This project aims to provide valuable insights and practical recommendations for both borrowers and lenders to increase their chances of successful funding and repayment in the P2P lending market. Additionally, we discuss potential future research opportunities to further eligible borrower field.
 
-## What We Do
-
 # Loan Prediction Model
 
 ## What we done:
