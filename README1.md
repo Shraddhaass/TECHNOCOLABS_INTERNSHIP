@@ -10,28 +10,32 @@ This project aims to provide valuable insights and practical recommendations for
 
 ## What We Do
 
-| Tasks:      |
-|---------------------------------------------|
-| 1. Perform Data Exploration                 |
-| 2. Visualization graphs                     |
-     EDA(Exploratory Data Analysis):
-       1. Univariate Analysis.
-       2. BiVariate Analysis
-       3. Multivariate Analysis                            |
-| 3. Feature Engineering                      |
-| 4. Model Evaluation                         |
-|    - (a) AdaBoost Classifier                |
-|    - (b) SVM Classifier                     |
-|    - (c) XGBoost Classifier                 |
-|    - (d) Decision Tree Classifier           |
-| 5. Formula for Target Variable              |
+# Loan Prediction Model
+
+## Tasks:
+| Tasks                                        |
+|----------------------------------------------|
+| 1. Perform Data Exploration                  |
+| 2. Visualization graphs                      |
+|    - EDA (Exploratory Data Analysis):        |
+|      1. Univariate Analysis                  |
+|      2. BiVariate Analysis                   |
+|      3. Multivariate Analysis                |
+| 3. Feature Engineering                       |
+| 4. Model Evaluation                          |
+|    - (a) AdaBoost Classifier                 |
+|    - (b) SVM Classifier                      |
+|    - (c) XGBoost Classifier                  |
+|    - (d) Decision Tree Classifier            |
+| 5. Formula for Target Variable               |
 | 6. Train the Model Using Machine Learning Algorithms |
-|     Random Forest Classifier                |
-|      MultiOutputRegressor                   |
-| 7. Test and Evaluate the Model              |
-| 8. Build Pipeline                           |
-| 9. Save and Serialize the Model             |
-| 10. Deployment of ML Model                  |
+|    - Random Forest Classifier                |
+|    - MultiOutputRegressor                    |
+| 7. Test and Evaluate the Model               |
+| 8. Build Pipeline                            |
+| 9. Save and Serialize the Model              |
+| 10. Deployment of ML Model                   |
+
 --
 ## 2. Data Preprocessing 
        Exploratory Data Analysis
