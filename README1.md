@@ -12,7 +12,7 @@ This project aims to provide valuable insights and practical recommendations for
 
 # Loan Prediction Model
 
-## Tasks:
+## What we done:
 | Tasks                                        |
 |----------------------------------------------|
 | 1. Perform Data Exploration                  |
@@ -378,4 +378,10 @@ These results indicate high accuracy for predicting EMI and PROI, with slightly 
 The development process of the web application was Developed into the Streamlit.
 Streamlit is an open source app framework in Python language. 
 It helps us create web apps for data science and machine learning in a short time.
-It is compatible with major Python libraries such as scikit-learn, NumPy, pandas, Matplotlib etc. 
+It is compatible with major Python libraries such as scikit-learn, NumPy, pandas, Matplotlib etc.
+
+ ## Predict the LOAN APPLICATION with eligible borrower based on the three variable 
+![Screenshot (474)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/6a59167e-5f6e-48b2-96e0-c7a8a7e69d4c)
+![Screenshot (477)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/76a9e710-6686-4d55-8e70-e86f7e262c42)
+![Screenshot (478)](https://github.com/Shraddhaass/TECHNOCOLABS_INTERNSHIP/assets/98949498/cc0631a4-5c10-4675-8145-6d20481d5343)
+- The output of the application is EMI, Eligible loan amount and PROI.
