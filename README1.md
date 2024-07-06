@@ -38,9 +38,23 @@ This project aims to provide valuable insights and practical recommendations for
 ## 2. Data Preprocessing 
        Exploratory Data Analysis
                  1.Clear Null Values
-                 2.Encoding Categorical Data
-                 3.Clearing Outliers
+                 2.Encoding Categorical Data(Doing the Label encoding for the categorical columns)
+                 3.Clearing Outliers(Removing the outliers from the data is nescassary as it increases the noise in the data which models have a negetive impact)
                  4.Formating columns having Datetime
+
+
+##### Our Loan Status Column is the Target Variable so for we have to make this as binary classification.So we use Deliquency period for converting this,if the deliquency period is above 180 it is considerd as 'defaulters' and if its is below 180 they are 'non defaulters'.
+``def classify_loan_status(days_delinquent):
+    if days_delinquent > 180:
+        return 'Default'  # Modify to 'Charged Off' if days delinquent > 180
+    else:
+        return 'Non- Default'  # Modify to 'Fully Paid' if days delinquent <= 180
+# Apply classification function directly to 'LoanStatus' column
+data['LoanStatus'] = data['LoanCurrentDaysDelinquent'].apply(classify_loan_status)
+
+print("Updated DataFrame with Binary Classification:")
+print(data) ```
+
 --
 ## 3. Data Visualization and Manipulation.
 ## Univariate Plots Section ##
@@ -191,8 +205,7 @@ Among the four models, the SVM Classifier performs the best with the highest acc
 
 #### Extracting the features.
 ###### we have to extract the date,month,year from the datetime columns
-
-### Function to select top 10 features based on MI scores for each target
+##### Clearing Null values,Outliers detection
 ### Function to select top 10 features based on MI scores for each target
 
 | Top 10 features for EMI                      | Top 10 features for EligibleLoanAmount          | Top 10 features for PROI                       |
